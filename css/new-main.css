@@ -58,7 +58,7 @@ button {
     position: relative; }
 
 .main-banner {
-  background-image: url("../imgs/direito.jpg");
+  background-image: url("../imgs/logo.png");
   display: inline-flex;
   margin-top: 0;
   width: 100%;
@@ -445,3 +445,9 @@ input[type=submit] {
   height: 46px; }
   .shrink .div-content {
     top: 48px; }
+
+  
+div.box {
+	width: 150px;
+	display: inline-block;
+}
