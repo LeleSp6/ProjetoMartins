@@ -13,8 +13,10 @@ html {
 
 .titulo {
   /* color: slategrey ; */
+  font-family: aqua,Arial, Helvetica, sans-serif;
   width: 80%;
-  margin: 20px 10%; }
+  margin: 20px 10%;
+font-size: 20px; }
 
 .texto {
  
@@ -66,7 +68,7 @@ button {
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 0;
+  background-position: 60% 0;
   background-size: auto 420px;
   height: 420px; }
 
@@ -75,7 +77,7 @@ h1 {
   color: white;
   width: 80%;
   clear: both;
-  font-family: Roboto, sans-serif;
+  font-family: aqua;
   font-size: 3.3em;
   z-index: 2; }
 
@@ -86,13 +88,13 @@ h1 {
   clear: both;
   margin: auto 10%; }
   .banner-texto h1 {
-    font-family: Roboto, sans-serif;
+    font-family: aqua;
     font-size: 3em;
     margin: 10px 0;
     width: 100%;
     color: white; }
   .banner-texto p {
-    font-family: Roboto, sans-serif;
+    font-family: aqua;
     font-size: 1.5em;
     color: white; }
 
@@ -134,7 +136,7 @@ footer {
   display: inline-block;
   background: #343a40;
   width: 100%;
-  font-family: Roboto;
+  font-family: aqua;
   padding: 10px 0;
   margin: 0;
   color: white;
@@ -149,7 +151,7 @@ footer hr {
 footer h5 {
   color: white;
   margin: 0;
-  font-family: Roboto;
+  font-family: aqua;
   font-weight: 600;
   list-style-type: none;
   padding: 5px 0;
@@ -244,7 +246,7 @@ footer hr {
   float: left;
   width: 50%;
   color: #A1A1A1;
-  font-family: Roboto;
+  font-family: aqua;
   font-size: 1.2em;
   margin: auto 30px; }
   .form-visita h2 {
@@ -277,7 +279,7 @@ input[type=text]:focus {
 
 .div-float-label label {
   color: #878787;
-  font-family: Roboto;
+  font-family: aqua;
   font-weight: normal;
   z-index: 0;
   top: 19px;
@@ -377,14 +379,14 @@ input[type=submit] {
     margin-left: -2130px; } }
 /*COMPONENTS*/
 .quote-maior {
-  font-family: Roboto , sans-serif;
+  font-family: aqua , sans-serif;
   color: #8B8B8C;
   font-size: 1.3rem;
   line-height: 1.25; }
 
 .title-mini {
   text-align: left;
-  font-family: Roboto , sans-serif;
+  font-family: aqua , sans-serif;
   color: #323232;
   text-transform: uppercase;
   padding: 10px 20px;
@@ -450,4 +452,29 @@ input[type=submit] {
 div.box {
 	width: 150px;
 	display: inline-block;
+}
+
+#fundo{
+  background-color: #d4d1d1;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: aqua;
+  src: url(../css/fontes/ClambakeOctoberSixRegular.otf);
+  src: url(../css/fontes/ClambakeOctoberSixBold-Italic.otf);
+  src: url(../css/fontes/ClambakeOctoberSixLight.otf);
+  src: url(../css/fontes/ClambakeOctoberSixLight-Italic.otf);
+  src: url(../css/fontes/ClambakeOctoberSixRegular-Italic.otf);
+
+
+}
+#nav{
+
+  font-family: aqua;
+}
+#home{
+  font-family: aqua;
 }

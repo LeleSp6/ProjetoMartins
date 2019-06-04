@@ -1,45 +1,47 @@
 /* begin styles for RSS Feed */
 
 .rss-box {
-    margin: 0.5em;
-    width: 1000px and;
-    background-color: #FFFFCC;
-        border: 7px solid  rgb(3, 3, 54);
+    margin: auto;
+    width: 80% ;
+  
+    background-color: white;
+        /* border: 7px solid  ; */
     
 }
-.rss-items {
+/* .rss-items {
    margin-top:0px;
    padding:0.5em; 0.5em;
    margin-left:0px;
    color:#c40233 ;
-}
+} */
 p.rss-title {padding:0.5em;}
 .rss-title {
    text-decoration: none;
-   font-family: small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
-   font-size: 15px;
-   background-color: rgb(3, 3, 54);
-   color:white;
+   font-family:aqua;
+   font-size: 25px;
+   /* background-color: rgb(3, 3, 54); */
+   color: black;
    font-weight:bold;
-   margin: 0px;
+   margin-left: 13px;
    padding:0em;
    text-align: left;
 }
-
+/* Conteudo da noticia */
 .rss-item  {
- font-family: small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
- font-size: 10px;
+ font-family:aqua;
+ font-size: 16;
  font-weight : normal;
  list-style:none;
  padding-bottom:1em;
 }
-
+/*  Titulo da noticia */
 .rss-item a {
+ 
    text-decoration : none;
    color: #330066;
-   font-size: 12px;
+   font-size: 25px;
    font-weight:light;
-   font-family:small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
+   font-family:aqua;
    }
    
 .rss-item a:visited {
@@ -97,4 +99,14 @@ p.rss-title {padding:0.5em;}
     width: 300px;
     
 
+  }
+  @font-face {
+    font-family: aqua;
+    src: url(../css/fontes/ClambakeOctoberSixRegular.otf);
+    src: url(../css/fontes/ClambakeOctoberSixBold-Italic.otf);
+    src: url(../css/fontes/ClambakeOctoberSixLight.otf);
+    src: url(../css/fontes/ClambakeOctoberSixLight-Italic.otf);
+    src: url(../css/fontes/ClambakeOctoberSixRegular-Italic.otf);
+  
+  
   }
