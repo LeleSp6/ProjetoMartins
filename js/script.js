@@ -34,3 +34,11 @@ $('a[href*="#"]')
       }
     }
   });
+
+  $(function(){ 
+    var navMain = $("#nav");
+
+    navMain.on("click", "a", null, function () {
+        navMain.collapse('hide');
+    });
+});
