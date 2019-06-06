@@ -60,11 +60,11 @@ button {
     position: relative; }
 
 .main-banner {
-  background-image: url("../imgs/fundo.png");
+  background-image: url("../imgs/fundo.jpg");
   display: inline-flex;
   margin-top: 0;
   width: 100%;
-  padding: 60 px 0;
+  padding: 60 px ;
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -118,7 +118,11 @@ h1 {
 
   .banner-texto {
     width: 40%; } }
-@media screen and (min-width: 1400px) {
+    /* @media screen and (min-width: 1366px) {
+      .main-banner {
+        height: 588px;
+        background-size: auto 588px; } */
+@media screen and (min-width: 1366px) {
   .main-banner {
     height: 588px;
     background-size: auto 588px; }
