@@ -60,7 +60,7 @@ button {
     position: relative; }
 
 .main-banner {
-  background-image: url("../imgs/logo.png");
+  background-image: url("../imgs/fundo.png");
   display: inline-flex;
   margin-top: 0;
   width: 100%;
@@ -459,6 +459,7 @@ div.box {
   padding-top: 50px;
   width: 100%;
   height: 100%;
+  padding-bottom: 50px;
 }
 
 @font-face {
@@ -476,5 +477,11 @@ div.box {
   font-family: aqua;
 }
 #home{
+  font-family: aqua;
+}
+#contato{
+  font-family: aqua;
+}
+#texto{
   font-family: aqua;
 }
