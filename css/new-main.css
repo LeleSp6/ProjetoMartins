@@ -13,6 +13,7 @@ html {
 
 .titulo {
   /* color: slategrey ; */
+  text-align: justify;
   font-family: aqua,Arial, Helvetica, sans-serif;
   width: 80%;
   margin: 20px 10%;
