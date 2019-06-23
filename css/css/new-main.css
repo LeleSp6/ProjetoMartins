@@ -13,7 +13,6 @@ html {
 
 .titulo {
   /* color: slategrey ; */
-  text-align: justify;
   font-family: aqua,Arial, Helvetica, sans-serif;
   width: 80%;
   margin: 20px 10%;
@@ -69,7 +68,7 @@ button {
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 60% 0;
+  background-position: 10% 100%;
   background-size: auto 420px;
   height: 420px; }
 
@@ -113,21 +112,20 @@ h1 {
     padding: 60px 0;
     background-size: auto 500px; }
 
-
-
-
-    
   h1 {
     width: 45%;
     font-size: 3.6em; }
 
   .banner-texto {
     width: 40%; } }
- 
+    @media screen and (min-width: 1366px) {
+      .main-banner {
+        height: 588px;
+        background-size: auto 588px; }
 @media screen and (min-width: 1366px) {
   .main-banner {
     height: 588px;
-    background-size: auto 650px; }
+    background-size: auto 588px; }
 
   .banner-texto h1 {
     font-size: 3.4em; }
@@ -490,9 +488,4 @@ div.box {
 }
 #texto{
   font-family: aqua;
-}
-	
-
-.dropdown:hover .dropdown-menu {
-  display: block;
 }
