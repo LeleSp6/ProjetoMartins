@@ -113,20 +113,21 @@ h1 {
     padding: 60px 0;
     background-size: auto 500px; }
 
+
+
+
+    
   h1 {
     width: 45%;
     font-size: 3.6em; }
 
   .banner-texto {
     width: 40%; } }
-    /* @media screen and (min-width: 1366px) {
-      .main-banner {
-        height: 588px;
-        background-size: auto 588px; } */
+ 
 @media screen and (min-width: 1366px) {
   .main-banner {
     height: 588px;
-    background-size: auto 588px; }
+    background-size: auto 650px; }
 
   .banner-texto h1 {
     font-size: 3.4em; }
@@ -489,4 +490,9 @@ div.box {
 }
 #texto{
   font-family: aqua;
+}
+	
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
