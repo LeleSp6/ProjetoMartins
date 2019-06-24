@@ -114,6 +114,9 @@ h1 {
     background-size: auto 500px; }
 
 
+   
+
+
 
 
     
@@ -331,6 +334,26 @@ input[type=submit] {
 .cliente-logo {
   float: left; }
 
+
+
+    .logo{
+   
+     padding-left: 100px;
+
+  }
+
+
+  @media screen and (max-width: 993px) {
+    .logo{
+      padding-left: 15px;
+      width: 60px;
+     
+     
+    }
+    
+
+  }
+
 .div-clientes {
   width: 100%;
   overflow: hidden;
@@ -497,6 +520,3 @@ div.box {
   display: block;
 }
 
-.logo{
-  width: 150px;
-}
