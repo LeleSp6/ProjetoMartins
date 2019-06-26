@@ -111,7 +111,7 @@ h1 {
   .main-banner {
     height: 500px;
     padding: 60px 0;
-    background-size: auto 500px; }
+    background-size: auto 100%; }
 
 
    
@@ -127,16 +127,19 @@ h1 {
   .banner-texto {
     width: 40%; } }
  
-@media screen and (max-width: 1918px) {
+@media screen and (max-width: 2048px) {
   .main-banner {
     height: 588px;
-    background-size: auto 900px; }
+    background-size:  auto 100%; }
+
+
+
 
   .banner-texto h1 {
     font-size: 3.4em; }
   .banner-texto p {
     font-size: 1.7em; } }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1350px) {
   .main-banner {
     height: 588px;
     background-size: 100% auto; } }
