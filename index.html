@@ -1,284 +1,269 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martins</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/new-main.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- RSS FEEDER-->
+    <link rel="stylesheet" href="css/new-main.css">
+    <!-- RSS FEEDER-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/noticia.css">
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-    
+
 </head>
+
 <body id="page-human" data-spy="scroll" data-target="#nav" data-offset="140">
     <header>
         <!--Navbar and  rgb(17, 2, 53)Brand-->
         <nav class="navbar navbar-expand-lg navbar-dark  fixed-top  " style="background-color: #01132c">
-            <a class="navbar-brand" href="#" ><img src="imgs/logo.png" alt="logo" class="logo" id="logo"></a>
-            
+            <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="logo" class="logo" id="logo"></a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="nav" style="padding-left: 20px;" >
-                <nav class="nav navbar-nav  " >    
-                        <a class="nav-item nav-link" href="#home">Home</a> 
-                        <a class="nav-item nav-link" href="#mc" >Curriculum Vitae</a> 
-                        <a class="nav-item nav-link" href="#areaatuacao">Área de Atuação</a> 
-                        <a class="nav-item nav-link" href="#artigo">Conheça seus Direitos</a>        
-                        <a class="nav-item nav-link" href="#instalacoes">Instalações</a>
-                        <a class="nav-item nav-link" href="#visita-text">Mande uma mensagem</a>
-                        <a class="nav-item nav-link" href="#contatos">Contatos</a>
-  
-                            
-                         <!-- SubMenu --> 
-                    <li class="nav-item dropdown" >
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            <div class="collapse navbar-collapse " id="nav" style="padding-left: 20px;">
+                <nav class="nav navbar-nav  ">
+                    <a class="nav-item nav-link" href="#home">Home</a>
+                    <a class="nav-item nav-link" href="#mc">Curriculum Vitae</a>
+                    <a class="nav-item nav-link" href="#areaatuacao">Área de Atuação</a>
+                    <a class="nav-item nav-link" href="#artigo">Conheça seus Direitos</a>
+                    <a class="nav-item nav-link" href="#instalacoes">Instalações</a>
+                    <a class="nav-item nav-link" href="#visita-text">Mande uma mensagem</a>
+                    <a class="nav-item nav-link" href="#contatos">Contatos</a>
+
+                    <!-- SubMenu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Acompanhe seu Processo
                                   </a>
-                                  <div class="dropdown-menu ">
+                        <div class="dropdown-menu ">
 
-                                    <a class="dropdown-item" href="https://esaj.tjsp.jus.br/cpopg/open.do" target="_blank">Justiça Estadual (São Paulo)</a>
-                                    <a class="dropdown-item" href="https://aplicacoes5.trtsp.jus.br/consultasphp/public/index.php/primeirainstancia" target="_blank">Justiça do Trabalho – TRT2</a>
-                                    <a class="dropdown-item" href="http://www.jfsp.jus.br/foruns-federais/" target="_blank">Justiça Federal - Varas </a>
-                                    <a class="dropdown-item" href="http://jef.trf3.jus.br/" target="_blank">Juizado Especial Federal</a>
-                                    
-                                  </div>
-                                </li>
-                                <!-- Redes Sociais -->
-                                <div style="float:left" id="redes">
+                            <a class="dropdown-item" href="https://esaj.tjsp.jus.br/cpopg/open.do" target="_blank">Justiça Estadual (São Paulo)</a>
+                            <a class="dropdown-item" href="https://aplicacoes5.trtsp.jus.br/consultasphp/public/index.php/primeirainstancia" target="_blank">Justiça do Trabalho – TRT2</a>
+                            <a class="dropdown-item" href="http://www.jfsp.jus.br/foruns-federais/" target="_blank">Justiça Federal - Varas </a>
+                            <a class="dropdown-item" href="http://jef.trf3.jus.br/" target="_blank">Juizado Especial Federal</a>
 
-                                    <a href="https://www.facebook.com/martins.gonzales.31" target="_blank">
-    
-                                                   <i class="fa fa-facebook-official" style="font-size:20px;color: white; padding-right: 15px; padding-top: 10px; padding-left:50px;"></i>
-    
-                                                                                                                                 </a>
-    
-                                    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511991665270" target="_blank">
-    
-                                                   <i class="fa fa-whatsapp" style="font-size:20px;color: white;padding-top: 10px;"></i>
-    
-                                    </a>
-    
-                                    </div>
-                                   </div>
-                                </div>
+                        </div>
+                    </li>
+                    <!-- Redes Sociais -->
+                    <div style="float:left" id="redes">
+
+                        <a href="https://www.facebook.com/martins.gonzales.31" target="_blank">
+
+                            <i class="fa fa-facebook-official"></i></a>
+
+                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511991665270" target="_blank"> <i class="fa fa-whatsapp"></i> </a>
+
+                    </div>
+
+                    
                 </nav>
-            </nav>
-           
+                </div>
+        
+        </nav>
+
     </header>
 
-<main>
-        
+    <main>
 
-    <div class="main-banner" id="home">
-        <div class="banner-texto">
-            <h1 ><br> Dr. Manoel Martins Gonzales</h1>
-           
-            Assessoria Empresarial e Familiar <br>
-            Administração de Bens, Assessoria em Leões Judiciais,<br>
-            Advogado Dativo e Correspondente<br>
-            Cível – Consumidor – Criminal – Família- Trabalhista<br>
-                
+        <div class="main-banner" id="home">
+            <div class="banner-texto">
+                <h1><br> Dr. Manoel Martins Gonzales</h1> Assessoria Empresarial e Familiar
+                <br> Administração de Bens, Assessoria em Leões Judiciais,
+                <br> Advogado Dativo e Correspondente
+                <br> Cível – Consumidor – Criminal – Família- Trabalhista
+                <br>
+
+            </div>
         </div>
-    </div >
-    
-    <div class="titulo"  style=" padding-bottom: 20px;">
-            <h2 id="mc"> <br>CURRICULUM VITAE <br></h2>            
-               
-                      
-                <p> <img src='imgs/cv.jpg' id="cv" style="padding-right:15px;">  Formado em dezembro do ano de 2004 pela Universidade Nove de Julho – Campus Vila Maria, ingressou nos quadros de profissionais da Ordem dos Advogados do Brasil Seccional São Paulo no ano seguinte, sendo aprovado no primeiro Exame de Ordem que prestou em Janeiro de 2005, obtendo o Registro Definitivo n° 234.734.</p>
-                          
-                 
-                
-                
-                <p>Especializou-se em Direito Penal no ano de 2007 pela mesma Universidade, já estando qualificado para ministrar aulas no ensino superior. No ano de 2011, pela Universidade Salesianos de São Paulo, concluiu duas novas especializações, sendo a primeira em Direito Civil e a segunda em Direito Processual Civil. </p>
-<p>Durante sua carreira, participou de inúmeros cursos de aperfeiçoamento, palestras e workshops, sempre buscando o aprimoramento profissional de forma a representar da melhor forma seus clientes.  </p>
-<p>Atualmente está Diretor Vice- Presidente da 96º Subseção - Lapa da Ordem dos Advogados do Brasil Seccional de São Paulo, eleito para gestão 2019/2021. </p> 
-<p>Pela 96ª Subseção Lapa da OAB/SP – Coordenou a Comissão de Ouvidoria, foi coordenador Adjunto da Comissão de Direito Humanos e do Idoso, membro das Comissões Defesa do Consumidor, Meio Ambiente e Ética e Disciplina, atuo ainda no programa "OAB VAI A ESCOLA", proferindo palestras em escolas públicas estaduais e municipais abordando temas relativos ao Direito de Família, Consumidor, Penal, Constitucional etc. </p>
-<p>Atua profissionalmente prestando Assessoria Jurídica Empresarial e Familiar; na Administração de Bens; nos ramos do Direito Civil (Inventários, Divórcios, Ações de Alimentos, Testamentos, Consumidor, Cobranças etc)  e Direito Penal (Varas Criminais, Juizados Especiais Criminais, Júri, etc.) e Tribunal de ética e Disciplina da OAB/SP. </p>   
-<p>Membro do corpo de jurados do 1º Tribunal do Júri de São Paulo desde 2002, tendo já participado de inúmeros Conselhos de Sentença e Tribuno do Júri. </p>
-<p>Foi membro do Instituto Brasileiro de Ciências Criminais – IBCCRIM, como sócio pesquisador. </p>
-<p>Atuou como procurador de Diversas Construtoras e Imobiliários, prestando assessoria junto aos compradores esclarecendo e orientando-os sobre contratos a serem assinados.
-Presta assessoria jurídica a escritórios de contabilidade e empresas diversas desde 2005.</p>
-<p>Advogado cadastrado no Convenio entre a Procuradoria Geral do Estado – PGE e a Ordem dos Advogados do Brasil - OAB/SP.</p>
 
-                <a href="http://lattes.cnpq.br/2440787729024828" target="_blank">Currículo Acadêmico </a>
-                </p>
-        </div>    
+        <div class="titulo" style=" padding-bottom: 20px;">
+            <h2 id="mc"> <br>CURRICULUM VITAE <br></h2>
+
+            <p> <img src='imgs/cv.jpg' id="cv" style="padding-right:15px;"> Formado em dezembro do ano de 2004 pela Universidade Nove de Julho – Campus Vila Maria, ingressou nos quadros de profissionais da Ordem dos Advogados do Brasil Seccional São Paulo no ano seguinte, sendo aprovado no primeiro Exame de Ordem que prestou em Janeiro de 2005, obtendo o Registro Definitivo n° 234.734.</p>
+
+            <p>Especializou-se em Direito Penal no ano de 2007 pela mesma Universidade, já estando qualificado para ministrar aulas no ensino superior. No ano de 2011, pela Universidade Salesianos de São Paulo, concluiu duas novas especializações, sendo a primeira em Direito Civil e a segunda em Direito Processual Civil. </p>
+            <p>Durante sua carreira, participou de inúmeros cursos de aperfeiçoamento, palestras e workshops, sempre buscando o aprimoramento profissional de forma a representar da melhor forma seus clientes. </p>
+            <p>Atualmente está Diretor Vice- Presidente da 96º Subseção - Lapa da Ordem dos Advogados do Brasil Seccional de São Paulo, eleito para gestão 2019/2021. </p>
+            <p>Pela 96ª Subseção Lapa da OAB/SP – Coordenou a Comissão de Ouvidoria, foi coordenador Adjunto da Comissão de Direito Humanos e do Idoso, membro das Comissões Defesa do Consumidor, Meio Ambiente e Ética e Disciplina, atuo ainda no programa "OAB VAI A ESCOLA", proferindo palestras em escolas públicas estaduais e municipais abordando temas relativos ao Direito de Família, Consumidor, Penal, Constitucional etc. </p>
+            <p>Atua profissionalmente prestando Assessoria Jurídica Empresarial e Familiar; na Administração de Bens; nos ramos do Direito Civil (Inventários, Divórcios, Ações de Alimentos, Testamentos, Consumidor, Cobranças etc) e Direito Penal (Varas Criminais, Juizados Especiais Criminais, Júri, etc.) e Tribunal de ética e Disciplina da OAB/SP. </p>
+            <p>Membro do corpo de jurados do 1º Tribunal do Júri de São Paulo desde 2002, tendo já participado de inúmeros Conselhos de Sentença e Tribuno do Júri. </p>
+            <p>Foi membro do Instituto Brasileiro de Ciências Criminais – IBCCRIM, como sócio pesquisador. </p>
+            <p>Atuou como procurador de Diversas Construtoras e Imobiliários, prestando assessoria junto aos compradores esclarecendo e orientando-os sobre contratos a serem assinados. Presta assessoria jurídica a escritórios de contabilidade e empresas diversas desde 2005.</p>
+            <p>Advogado cadastrado no Convenio entre a Procuradoria Geral do Estado – PGE e a Ordem dos Advogados do Brasil - OAB/SP.</p>
+
+            <a href="http://lattes.cnpq.br/2440787729024828" target="_blank">Currículo Acadêmico </a>
+           
+        </div>
         <div id="fundo" style="padding-top: 20px;">
             <div class="titulo">
-                    
-                 <h2 id="areaatuacao" >Área de atuação</h2>
-                
-                 <p><b>Assessoria Empresarial preventiva e contenciosa:</b> orientamos nossos clientes quanto aos termos e na confecção de contratos, tanto de compras, vendas e parcerias; casos trabalhistas, na atuação do mercado em casos de ações de indenizações por consumidores; fiscalizações etc. </p>
-                 <p> <b>Assessoria Familiar preventiva e contenciosa:</b> orientamos em questões envolvendo, Contratos de Namoro, Pactos Antenupciais, Regime de Bens no Casamento, União Estável, Questões Familiares LGBT, Adoção, Conselho Tutelar, Testamentos, Doações, Falecimentos, Inventários e Partilhas etc. </p>
-                  <p><b>Administração de Bens: </b>Contratos de Venda e Compra, Contratos de locação, Cobranças, Despejos, Manutenção de imóveis, Representação Junto a Condomínios, Compra e Venda de imóveis por procuração, Assessoria em Leilões Judiciais e Extrajudiciais etc.</p>
-                  <p><b>Área Cível:</b> Doações e Usufruto, Despejo, Cobrança, Usufruto, Reintegração de Posse, Acordos, Danos Morais e Patrimoniais, Questões Médicas e de Convênios, Acidentes de Transito, Indenizações, Contratos, etc. </p>
-                  <p><b> Família:</b> Contratos de Namoro, Pactos Antenupciais, Regime de Bens no Casamento e União Estável, Divórcio Consensual e Litigioso, Reconhecimento e Dissolução de União Estável, Alimentos, Guarda de Menores, Partilha de Bens, Interdições, Questões Familiares LGBT, Adoção, Conselho Tutelar, Testamentos, Doações, Falecimentos, Inventários e Partilhas etc. </p>
-                  <p><b> Área Penal: </b> Defesa e Acusação em ações de Calunia, Difamação, Lesão Corporal, Homicídios, Crimes de Transito, Agressões no âmbito Familiar, Contravenções Penais, Tribunal do Júri, Juizado Especial Criminal etc. </p>
-                  <p><b> Área Trabalhista: </b>Ações Trabalhistas pelo Reclamante e Reclamada, acompanhamento de Pericias, Acordos etc. </p>
-                  <p><b>Advogado Dativo e Correspondente: </b> Atuando como Dativo em Ações Cíveis e de Família além de Correspondente e Preposto de escritórios de advocacia e empresas de todo o Brasil, na Cidade de São Paulo, Grande São Paulo, Interior e Litoral do Estado. </p>
-                  
-                                
+
+                <h2 id="areaatuacao">Área de atuação</h2>
+
+                <p><b>Assessoria Empresarial preventiva e contenciosa:</b> orientamos nossos clientes quanto aos termos e na confecção de contratos, tanto de compras, vendas e parcerias; casos trabalhistas, na atuação do mercado em casos de ações de indenizações por consumidores; fiscalizações etc. </p>
+                <p> <b>Assessoria Familiar preventiva e contenciosa:</b> orientamos em questões envolvendo, Contratos de Namoro, Pactos Antenupciais, Regime de Bens no Casamento, União Estável, Questões Familiares LGBT, Adoção, Conselho Tutelar, Testamentos, Doações, Falecimentos, Inventários e Partilhas etc. </p>
+                <p><b>Administração de Bens: </b>Contratos de Venda e Compra, Contratos de locação, Cobranças, Despejos, Manutenção de imóveis, Representação Junto a Condomínios, Compra e Venda de imóveis por procuração, Assessoria em Leilões Judiciais e Extrajudiciais etc.</p>
+                <p><b>Área Cível:</b> Doações e Usufruto, Despejo, Cobrança, Usufruto, Reintegração de Posse, Acordos, Danos Morais e Patrimoniais, Questões Médicas e de Convênios, Acidentes de Transito, Indenizações, Contratos, etc. </p>
+                <p><b> Família:</b> Contratos de Namoro, Pactos Antenupciais, Regime de Bens no Casamento e União Estável, Divórcio Consensual e Litigioso, Reconhecimento e Dissolução de União Estável, Alimentos, Guarda de Menores, Partilha de Bens, Interdições, Questões Familiares LGBT, Adoção, Conselho Tutelar, Testamentos, Doações, Falecimentos, Inventários e Partilhas etc. </p>
+                <p><b> Área Penal: </b> Defesa e Acusação em ações de Calunia, Difamação, Lesão Corporal, Homicídios, Crimes de Transito, Agressões no âmbito Familiar, Contravenções Penais, Tribunal do Júri, Juizado Especial Criminal etc. </p>
+                <p><b> Área Trabalhista: </b>Ações Trabalhistas pelo Reclamante e Reclamada, acompanhamento de Pericias, Acordos etc. </p>
+                <p><b>Advogado Dativo e Correspondente: </b> Atuando como Dativo em Ações Cíveis e de Família além de Correspondente e Preposto de escritórios de advocacia e empresas de todo o Brasil, na Cidade de São Paulo, Grande São Paulo, Interior e Litoral do Estado. </p>
+
             </div>
         </div>
-            <div class="noticia" id="artigo"  style="padding-top: 20px;" >
-        <!-- <h2 style="text-align: center; padding-top: 50px;">Conheça seus direitos</h2> -->
-        <script language="JavaScript" src="http://feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2FConheaSeuDireito&chan=title&desc=150&targ=s&utf=y"  charset="UTF-8" type="text/javascript"></script>
+        <div class="noticia" id="artigo" style="padding-top: 20px;">
+            <!-- <h2 style="text-align: center; padding-top: 50px;">Conheça seus direitos</h2> -->
+            <script language="JavaScript" src="http://feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2FConheaSeuDireito&chan=title&desc=150&targ=s&utf=y" charset="UTF-8" type="text/javascript"></script>
 
-        <noscript >
-        <a href="http://feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2FConheaSeuDireito&chan=title&desc=150&targ=s&utf=y&html=y">View RSS feed</a> <br>
-        </noscript>
-        
-    
-    </div>
+            <noscript>
+                <a href="http://feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2FConheaSeuDireito&chan=title&desc=150&targ=s&utf=y&html=y">View RSS feed</a>
+                <br>
+            </noscript>
 
-            </script>
-    </div>
-</div>
+        </div>
 
-      
-    <div id="fundo" style="padding-top: 20px;" >
-    <div class="titulo">
-        <h2  id="instalacoes">Instalações</h2>
-        <p >Estamos instalados na Rua John Harrison, 299 - sala 407 em um dos prédios comerciais mais modernos e acessíveis do Bairro da Lapa, o NoW OFFICES.
-            No Conjunto 407, dispomos de 3 salas de trabalho equipadas e climatizadas. Contamos ainda, em nosso prédio, com 2 salas amplas de reunião para assinaturas de contratos, inventários, arrolamentos, testamentos, doações etc, tudo com a maior discrição e sigilo e um mini auditório para reuniões e treinamentos além de estacionamento. <br> <br>
-            </p>
+       
 
-            <div class="row" >
-                <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;"  >
-                    <img  id="instalacao" src="imgs/estacionamento.jpg">
-                    <p id="textoinstalacao">Entrada</p>
-                    
-                </div>
+        <div id="fundo" style="padding-top: 20px;">
+            <div class="titulo">
+                <h2 id="instalacoes">Instalações</h2>
+                <p>Estamos instalados na Rua John Harrison, 299 - sala 407 em um dos prédios comerciais mais modernos e acessíveis do Bairro da Lapa, o NoW OFFICES. No Conjunto 407, dispomos de 3 salas de trabalho equipadas e climatizadas. Contamos ainda, em nosso prédio, com 2 salas amplas de reunião para assinaturas de contratos, inventários, arrolamentos, testamentos, doações etc, tudo com a maior discrição e sigilo e um mini auditório para reuniões e treinamentos além de estacionamento.
+                    <br>
+                    <br>
+                </p>
 
-                <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;"  >
-                        <img  id="instalacao" src="imgs/estacionamento.jpg">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
+                        <img id="instalacao" src="imgs/estacionamento.jpg">
+                        <p id="textoinstalacao">Entrada</p>
+
+                    </div>
+
+                    <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
+                        <img id="instalacao" src="imgs/estacionamento.jpg">
                         <p id="textoinstalacao">Foto 1</p>
-                        
+
                     </div>
 
-                <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
-                    <img id="instalacao" src="imgs/salas.jpg">
-                    <p id="textoinstalacao">Salas de Reunião</p>
-                </div>
-                <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
-                    <img id="instalacao" src="imgs/salareuniao.jpg">
-                    <p id="textoinstalacao" >Estacionamento acessivel para clientes</p>
-                </div>
-                <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
-                    <img id="instalacao" src="imgs/auditorio.jpg">
-                    <p  id="textoinstalacao">Foto 2</p>
-                </div>
-
-                <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
+                    <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
+                        <img id="instalacao" src="imgs/salas.jpg">
+                        <p id="textoinstalacao">Salas de Reunião</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
+                        <img id="instalacao" src="imgs/salareuniao.jpg">
+                        <p id="textoinstalacao">Estacionamento acessivel para clientes</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
                         <img id="instalacao" src="imgs/auditorio.jpg">
-                        <p  id="textoinstalacao">Mini Auditório</p>
+                        <p id="textoinstalacao">Foto 2</p>
                     </div>
 
-            </div>
-        </div>
-      
-        </div>
-    </div>
-        
-
-    <!-- VISIT INVITATION -->
-    <div class="cont-visita" id="contato">
-        <div class="width-80" id="visita-text" >
-            <h3 >Entre em contato</h3>
-            <p>Deixe sua mensagem e em breve entraremos em contato com você.</p>
-        </div>
-
-        <div class="div-visita" id="texto">
-            <img src="imgs/email.png">
-            <div class="form-visita">
-
-                <form method="POST" action="index.html">
-                    <div class="form-group div-float-label">
-                        <input type="text" name="name" id="id-name" class="input-float-label" placeholder="Nome">
+                    <div class="col-md-4 col-lg-4" style="margin-bottom: 30px;">
+                        <img id="instalacao" src="imgs/auditorio.jpg">
+                        <p id="textoinstalacao">Mini Auditório</p>
                     </div>
-
-                    <div class="form-group div-float-label">
-                        <input type="text" name="email" id="id-email" class="input-float-label" placeholder="Email">
-                    </div>
-
-                    <div class="form-group div-float-label">
-                        <input type="text" name="mensagem" id="id-mensagem" class="input-float-label" placeholder="Mensagem">
-                    </div>
-                    <input type="submit" value="Enviar">
-                </form>
-            </div>
-
-        </div>
-</main>
-
-<footer>
-    <!--Redes sociais e ícones do facebook e instagram-->
-    
-    <!-- Sessão principal do footer -->
-    <div class="info width-80" id="texto" style="padding-top: 13px;">
-        <div class="row">
-            <div class="coluna-footer col-sm-4">
-              
-                <ul >
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#areaatuacao">Área de atuação</a></li>
-                    <li><a href="#artigo"> Conheça seus Direitos</a></li>
-                    <li><a href="#mc">Curriculum Vitae</a></li>
-                    <li><a href="#contato">Contatos</a></li>
-                </ul>
-            </div>
-            <div class="coluna-footer col-sm-4" id="contatos">
-                <h5> Localização</h5>
-               
-                <ul>
-                    <li>Rua John Harrison, 299 – Sala 407 – Ed. Now Offices – CEP 05074-080</li>
-                    <li>Bairro da Lapa – São Paulo / SP.</li>
                 </div>
-                   
+
+               
+
+            </div>
+        </div>
+
+        <!-- VISIT INVITATION -->
+        <div class="cont-visita" id="contato">
+            <div class="width-80" id="visita-text">
+                <h3>Entre em contato</h3>
+                <p>Deixe sua mensagem e em breve entraremos em contato com você.</p>
+            </div>
+
+            <div class="div-visita" id="texto">
+                <img src="imgs/email.png">
+                <div class="form-visita">
+
+                    <form method="POST" action="index.html">
+                        <div class="form-group div-float-label">
+                            <input type="text" name="name" id="id-name" class="input-float-label" placeholder="Nome">
+                        </div>
+
+                        <div class="form-group div-float-label">
+                            <input type="text" name="email" id="id-email" class="input-float-label" placeholder="Email">
+                        </div>
+
+                        <div class="form-group div-float-label">
+                            <input type="text" name="mensagem" id="id-mensagem" class="input-float-label" placeholder="Mensagem">
+                        </div>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+
+            </div>
+    </main>
+
+    <footer>
+        <!--Redes sociais e ícones do facebook e instagram-->
+
+        <!-- Sessão principal do footer -->
+        <div class="info width-80" id="texto" style="padding-top: 13px;">
+            <div class="row">
+                <div class="coluna-footer col-sm-4">
+
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#areaatuacao">Área de atuação</a></li>
+                        <li><a href="#artigo"> Conheça seus Direitos</a></li>
+                        <li><a href="#mc">Curriculum Vitae</a></li>
+                        <li><a href="#contato">Contatos</a></li>
+                    </ul>
+                </div>
+                <div class="coluna-footer col-sm-4" id="contatos">
+                    <h5> Localização</h5>
+
+                    <ul>
+                        <li>Rua John Harrison, 299 – Sala 407 – Ed. Now Offices – CEP 05074-080</li>
+                        <li>Bairro da Lapa – São Paulo / SP.</li>
+                </div>
+
                 </ul>
-                <div  class="coluna-footer col-sm-4">
-                <h5 > Contate-se conosco</h5>
-                <ul>
-                    <li>(55) + 11 3833-9789 / 3831-3739</li>
-                    
+                <div class="coluna-footer col-sm-4">
+                    <h5> Contate-se conosco</h5>
+                    <ul>
+                        <li>(55) + 11 3833-9789 / 3831-3739</li>
+
                         <a href="#contato">dr.mmartins@adv.oabsp.org.br</a>
                         <a href="#contato">mm.gonzales@aasp.org.br </a>
-                    </li>
-                </ul>
-                <h5>Celular</h5>
-                <ul><li>(55) + 11 99166-5270</li></ul>
-            </div>
+                        </li>
+                    </ul>
+                    <h5>Celular</h5>
+                    <ul>
+                        <li>(55) + 11 99166-5270</li>
+                    </ul>
+                </div>
 
-            <!-- Inserir google Maps -->
-            <!-- <div  class="coluna-footer col-sm-4">
+                <!-- Inserir google Maps -->
+                <!-- <div  class="coluna-footer col-sm-4">
              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1829.2087400835467!2d-46.705186!3d-23.5174824!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef860e51516e3%3A0x288bd34ce7bb81d8!2sR.+John+Harrison%2C+299+-+Lapa%2C+S%C3%A3o+Paulo+-+SP%2C+05074-080!5e0!3m2!1spt-BR!2sbr!4v1559678752308!5m2!1spt-BR!2sbr" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div> -->
+            </div>
+            <hr>
         </div>
-        <hr>
-    </div>
-    <!--Copyright-->
-    <div class="width-80" id="copyright"> <p><small>&copy Leandro Sampaio 2019 - TODOS OS DIREITOS RESERVADOS</small></p></div>
+        <!--Copyright-->
+        <div class="width-80" id="copyright">
+            <p><small>&copy Leandro Sampaio 2019 - TODOS OS DIREITOS RESERVADOS</small></p>
+        </div>
 
+    </footer>
 
-
-</footer>
-  
-<script
-src="https://code.jquery.com/jquery-3.4.0.min.js"
-integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
